@@ -5,7 +5,6 @@ from django.urls import reverse
 
 
 class Client(models.Model):
-
     name = models.CharField(max_length=50,blank=False, null=False, default=' ')
     address = models.CharField(max_length=50, blank=True, null=True,default=' ')
     city = models.CharField(max_length=50, default=' ')
